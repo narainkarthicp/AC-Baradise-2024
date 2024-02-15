@@ -1,3 +1,6 @@
+// Loading circle with purple color
+
+
 import 'package:flutter/material.dart';
 
 class CenterProgressBar extends StatelessWidget {

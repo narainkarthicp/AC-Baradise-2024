@@ -2,11 +2,11 @@ import 'package:acbaradise_2024/Authentication/SigninScreen.dart';
 import 'package:acbaradise_2024/Screens/AddAddressDetailsScreen.dart';
 import 'package:acbaradise_2024/Screens/AnnualContractScreen.dart';
 import 'package:acbaradise_2024/Screens/PaymentScreen.dart';
-import 'package:acbaradise_2024/Screens/ProductScreen.dart';
 import 'package:acbaradise_2024/Screens/SelectAddressScreen.dart';
 import 'package:acbaradise_2024/Temp/temp.dart';
 import 'package:acbaradise_2024/Widgets/CombinedWidgets/AddressContainer.dart';
 import 'package:acbaradise_2024/Widgets/CombinedWidgets/ProductsListContainer.dart';
+import 'package:acbaradise_2024/Widgets/SingleWidgets/AMCPrice.dart';
 import 'package:flutter/material.dart';
 import 'package:acbaradise_2024/Screens/SplashScreen.dart';
 void main() {
@@ -27,12 +27,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-<<<<<<< Updated upstream
-      home: ProductsListContainer(),
-=======
+
       home: Temp(),
->>>>>>> Stashed changes
-    );
+         );
   }
 }
 
