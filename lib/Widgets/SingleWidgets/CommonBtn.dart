@@ -13,9 +13,7 @@ class CommonBtn extends StatelessWidget {
       child: Container(
         height: 60,
         width: double.infinity,
-        margin: const EdgeInsets.symmetric(
-          horizontal: 30,vertical: 30
-        ), 
+        margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5),
           color: lightBlueColor,

@@ -27,7 +27,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+<<<<<<< Updated upstream
       home: ProductsListContainer(),
+=======
+      home: Temp(),
+>>>>>>> Stashed changes
     );
   }
 }
